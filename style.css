@@ -1,0 +1,163 @@
+/*general elements*/
+
+body{
+    display: flex;
+    flex-direction:column ;
+}
+
+ul{
+    list-style-type: none ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    height: 250px;
+    width: 400px;
+    margin: 15px;
+    border-style: ridge;
+}
+
+/*first*/
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    flex: 0 ;
+    background-color: #1F2937;
+    
+}
+.link {
+    color: white ;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+
+.header-links{
+    display: flex;
+    gap: 15px;
+}
+
+.first-body{
+    display: flex;
+    gap: 20px;
+    justify-content:space-around ;
+    margin: 50px;
+}
+
+
+.firsth{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+h4{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.signup{
+    background-color:#3882f6 ;
+    color: white;
+}
+
+/*second*/
+
+.second{
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.secondh{
+    font-size: 36px;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.ima{
+    width: 200px;
+    height: 200px;
+
+}
+.textofimg{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*third*/
+
+.third {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-items:space-around ;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    align-self: center;
+
+}
+.sign{
+    font-size: 20px;
+    align-self: end;
+}
+
+
+/*fourth*/
+
+.fourth{
+    display: flex;
+    
+    
+    
+    
+
+}
+
+.text4{
+
+}
+
+.blue{
+    align-self: center;
+    background-color: #3882f6 ;
+    display: flex;
+    flex:1;
+    justify-content: space-around;
+
+}
+
+.signup2{
+    align-self: center;
+    justify-self: right;
+    background-color: #3882f6;
+    border-color: white;
+    border-style: double;
+}
+
+
+/* footer */
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.copy{
+    color: white;
+}
